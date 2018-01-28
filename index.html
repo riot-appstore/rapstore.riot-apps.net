@@ -1,0 +1,326 @@
+    <!DOCTYPE HTML>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>RAPstore - An App Store for RIOT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel='stylesheet' id='prettyphoto-css'  href="css/prettyPhoto.css" type='text/css' media='all'>
+    <link href="css/fontello.css" type="text/css" rel="stylesheet">
+    <!--[if lt IE 7]>
+            <link href="css/fontello-ie7.css" type="text/css" rel="stylesheet">  
+        <![endif]-->
+    <!-- Google Web fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Quattrocento:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <style>
+    body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+    }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <!-- Load ScrollTo -->
+    <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+    <!-- Load LocalScroll -->
+    <script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+    <!-- prettyPhoto Initialization -->
+    <script type="text/javascript" charset="utf-8">
+          $(document).ready(function(){
+            $("a[rel^='prettyPhoto']").prettyPhoto();
+          });
+        </script>
+    </head>
+    <body>
+    <!--******************** NAVBAR ********************-->
+    <div class="navbar-wrapper">
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+            <h1 class="brand"><a href="#top">RAPstore</a></h1>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <nav class="pull-right nav-collapse collapse">
+              <ul id="menu-main" class="nav">
+                <li><a title="services" href="#about">About</a></li>
+                <li><a title="news" href="#news">News</a></li>
+                <li><a title="team" href="#team">Team</a></li>
+                <li><a title="contact" href="#contact">Contact</a></li>
+                <li><a title="sponsors" href="#sponsors">Sponsors</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.navbar-inner -->
+      </div>
+      <!-- /.navbar -->
+    </div>
+    <!-- /.navbar-wrapper -->
+    <div id="top"></div>
+    <!-- ******************** HeaderWrap ********************-->
+    <div id="headerwrap">
+      <header class="clearfix">
+        <div class="container">
+          <div class="row">
+            <div class="span12">
+              <h1><span>RAPstore</span></h1>
+              <h2><span>An app store for IoT devices.</span></h2>
+              <h2><span>Based on RIOT.</span></h2>
+              <h2><span>Stay tuned.</span></h2>
+              <ul class="icon">
+                <li><a href="https://github.com/riot-appstore" target="_blank"><i class="icon-github"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <!--******************** Feature ********************-->
+    <section id="about" class="single-page scrollblock">
+      <div class="container">
+        <div class="align"><i class="icon-map"></i></div>
+        <h1>About</h1>
+        <div class="row">
+          <div class="span12">
+            <div class="inside">
+              <div class="entry-content">
+                <p>The Internet of Things (IoT) is a game changer for the Internet.
+              However, to be successful on the long-term, the IoT needs an ecosystem that enables easy and secure adaption of IoT devices to the needs of their consumers. A key enabler to achieve this goal is software.</p>
+
+               <p>In RAPstore, we design, develop, and test an app store for low-end IoT devices.
+             Similar to the mobile market, we aim for a platform that allows application developers to share software with end users, and to allow end users to update their IoT devices more easily compared to the current state of art.
+             In contrast to the mobile market, these applications will run on many more devices with very constrained resources.
+             We develop our solutions for the most modern operating system of the IoT, <a href="https://riot-os.org">RIOT</a>.
+              </div>
+            </div>
+            <!-- /.inside -->
+          </div>
+          <!-- /.span4 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <hr>
+
+    <!--******************** Testimonials Section ********************-->
+    <section id="testimonials" class="single-page hidden-phone">
+      <div class="container">
+        <div class="row">
+          <div class="blockquote-wrapper">
+            <blockquote class="mega">
+              <div class="span4">
+                <p class="cite">In a nutshell:</p>
+              </div>
+              <div class="span8">
+                <p class="alignright">"In RAPstore, we develop an app store for RIOT, the friendly operating system for the Internet of Things."</p>
+              </div>
+            </blockquote>
+          </div>
+          <!-- /.blockquote-wrapper -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <hr>
+    <!--******************** News Section ********************-->
+    <section id="news" class="single-page scrollblock">
+      <div class="container">
+        <div class="align"><i class="icon-pencil-circled"></i></div>
+        <h1>Blog</h1>
+        <!-- Three columns -->
+        <div class="row">
+          <article class="span4 post"> <img class="img-news" src="img/blog-iothon.jpg" alt="">
+            <div class="inside">
+              <p class="post-date"><i class="icon-calendar"></i> January 18-19, 2018</p>
+              <h2>Participated at IoThon</h2>
+              <div class="entry-content">
+                <p>IoThon is Europe's first research-oriented open source IoT hackathon, for students, researchers, and developers. It took place in Janunary 18-19, 2018 in Berlin, at Einstein Center Digital Future. We contributed and worked on a RAPstore challenge.</p>
+                <a href="https://iothon.io/challenges/" class="more-link">read more</a> </div>
+            </div>
+            <!-- /.inside -->
+          </article>
+          <article class="span4 post"> <img class="img-news" src="img/blog-riot-summit17.jpg" alt="">
+            <div class="inside">
+              <p class="post-date"><i class="icon-calendar"></i> September 25-26, 2017</p>
+              <h2>RIOT Summit 2017</h2>
+              <div class="entry-content">
+                <p>We co-organized the 2nd face to face meeting of the RIOT community, which took place in Berlin from September 25-26, 2017. Many interesting talks with a special focus on security. We gave a brief preview into the RAPstore.</p>
+                <a href="http://summit.riot-os.org/2017" class="more-link">read more</a> </div>
+            </div>
+            <!-- /.inside -->
+          </article>
+          <!-- /.span4 -->
+          <!-- /.span4 -->
+          <article class="span4 post"> <img class="img-news" src="img/blog-df.jpg" alt="">
+            <div class="inside">
+              <p class="post-date"><i class="icon-calendar"></i> May 20, 2017</p>
+              <h2>Radio interview</h2>
+              <div class="entry-content">
+                <p>We gave an interview about the Internet of Things and our goal to build an app store to make the IoT more appealing, in the radio program computer and communication of Deutschlandfunk.</p>
+                <a href="http://www.deutschlandfunk.de/computer-und-kommunikation.683.de.html" class="more-link">read more</a> </div>
+            </div>
+            <!-- /.inside -->
+          </article>
+          <!-- /.span4 -->
+        </div>
+        <!-- /.row -->
+        <!--<a href="#" class="btn btn-large">Go to our blog</a> </div>-->
+      <!-- /.container -->
+    </section>
+    <hr>
+    <!--******************** Team Section ********************-->
+    <section id="team" class="single-page scrollblock">
+      <div class="container">
+        <div class="align"><i class="icon-group-circled"></i></div>
+        <h1>Team</h1>
+        <!-- Five columns -->
+        <div class="row">
+          <div class="span2 offset1">
+            <div class="teamalign"> <a href="http://inet.haw-hamburg.de/members/jose-alamos"><img class="team-thumb img-circle" src="img/photo-jose.jpg" alt="Jose Alamos"></a> </div>
+            <h3>Jos&eacute; Alamos</h3>
+            <div class="job-position">Software Engineer</div>
+          </div>
+          <!-- ./span2 -->
+          <div class="span2">
+            <div class="teamalign"> <a href="http://ilab.cs.fu-berlin.de/members/harter.html"><img class="team-thumb img-circle" src="img/photo-gaetan.jpg" alt="Gaetan Harter"></a> </div>
+            <h3>Ga&euml;tan Harter</h3>
+            <div class="job-position">Software Engineer</div>
+          </div>
+          <!-- ./span2 -->
+          <div class="span2">
+            <div class="teamalign"> <a href="http://ilab.cs.fu-berlin.de/members/petry.html"><img class="team-thumb img-circle" src="img/photo-daniel.png" alt="Daniel Petry"></a> </div>
+            <h3>Daniel Petry</h3>
+            <div class="job-position">Software Engineer</div>
+          </div>
+          <!-- ./span2 -->
+          <div class="span2">
+            <div class="teamalign"> <a href="http://ilab.cs.fu-berlin.de/members/van-essen.html"><img class="team-thumb img-circle" src="img/photo-hendrik.png" alt="Hendrik van Essen"></a> </div>
+            <h3>Hendrik van Essen</h3>
+            <div class="job-position">Student Assistant</div>
+          </div>
+          <!-- ./span2 -->
+        </div>
+        <div class="row">
+          <div class="span2 offset1">
+            <div class="teamalign"> <a href="http://inet.haw-hamburg.de/members/schmidt"><img class="team-thumb img-circle" src="img/photo-thomas.jpg" alt="Thomas C. Schmidt"></a> </div>
+            <h3>Thomas Schmidt</h3>
+            <div class="job-position">Professor</div>
+          </div>
+          <!-- ./span2 -->
+          <div class="span2">
+            <div class="teamalign"> <a href="http://ilab.cs.fu-berlin.de/members/waehlisch.html"><img class="team-thumb img-circle" src="img/photo-matthias.jpg" alt="Matthias Waehlisch"></a> </div>
+            <h3>Matthias W&auml;hlisch</h3>
+            <div class="job-position">Professor</div>
+          </div>
+          <!-- ./span2 -->
+        </div>
+        <!-- /.row -->
+        <div class="row">
+          <div class="span10 offset1">
+            <hr class="featurette-divider">
+            <div class="featurette">
+              <h2 class="featurette-heading">Want to know more? <span class="muted">| a little about us</span></h2>
+              <p>RAPstore is part of the federal high-tech strategy of Germany. It is funded in the <a href="https://www.validierungsfoerderung.de/">VIP+ program</a> by the <a href="https://www.bmbf.de/en/">German Ministry of Education and Research</a>. This program supports the validation of innovation potential of excellent scientific results, to bridge the gap between research and market. RAPstore is also supported by Fraunhofer <a href="https://www.fokus.fraunhofer.de/en">FOKUS</a>, the Fraunhofer institute for open communication systems.</p>
+              <p>Two universities are sponsored in RAPstore, <a href="http://ilab.cs.fu-berlin.de">Freie Universit&auml;t Berlin</a> and <a href="https://inet.haw-hamburg.de">Hamburg University of Applied Sciences</a>. The RAPstore team consists of people who like to push the IoT forward, including high profiled software engineers, newcomers, and researchers who are experienced in tackling challenges with practical impact.</p>
+              <p>
+              </p>
+            </div>
+            <!-- /.featurette -->
+            <hr class="featurette-divider">
+          </div>
+          <!-- .span10 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+
+    <section id="about" class="single-page scrollblock">
+      <div class="container">
+        <div class="align"><i class="icon-map"></i></div>
+        <div class="row">
+          <div class="span12">
+            <center>
+              <a href="http://ilab.cs.fu-berlin.de"><img src="img/bildschirm_FULogo_RGB.png" style="height: 80px; margin-right: 20px;"></a>
+              <a href="https://inet.haw-hamburg.de"><img src="img/03_HAW_Logo_P_4c.png" style="height: 80px; margin-right: 20px;"></a>
+            </center>
+          </div>
+          <!-- .span10 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+
+    <!--******************** Contact Section ********************-->
+    <section id="contact" class="single-page scrollblock">
+      <div class="container">
+        <div class="align"><i class="icon-mail-2"></i></div>
+        <h1>Contact</h1>
+        <div class="row">
+          <div class="span12">
+            <div class="cform" id="theme-form">
+              <div>
+                <center>
+                  <form action="mailto:rapstore@riot-apps.net">
+                    <input class="cform-submit pull-center" type="submit"
+                    value="Send an email">
+                  </form>
+                </center>
+                <br/>
+              </div>
+            </div>
+          </div>
+          <!-- ./span12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+
+
+
+    <!--******************** Sponsors Section ********************-->
+    <section id="sponsors" class="single-page scrollblock">
+      <div class="container">
+        <h1>Sponsors</h1>
+        <div class="row">
+          <div class="span12 offset0">
+            <center>
+              <a href="https://www.bmbf.de/en/index.html"><img src="img/BMBF_RGB_Gef_L_e.jpg"/></a>
+            </center>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+    <div class="footer-wrapper">
+      <div class="container">
+        <footer>
+          <small>&copy; 2017-2018. All rights reserved.</small>
+        </footer>
+      </div>
+      <!-- ./container -->
+    </div>
+    <!-- Loading the javaScript at the end of the page -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/site.js"></script>
+    
+    </body>
+    </html>
